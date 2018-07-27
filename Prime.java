@@ -8,8 +8,8 @@ class Prime
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		int i=11,n;
-		n=i;
-		if(i%1==0&&i%n==0)
+		d=i;
+		if(i%1==0&&i%d==0)
 		{
 			System.out.println("yes");
 		}
