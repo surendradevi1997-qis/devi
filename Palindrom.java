@@ -19,11 +19,11 @@ class Palindrom
 		}
 		if(temp==rev)
 		{
-		System.out.println(rev+"is a polindrom ");
+		System.out.println("yes");
 		}
 		else
 		{
-			System.out.println(rev+"is not a polindrom ");
+			System.out.println("no ");
 		}
 	}
 }
