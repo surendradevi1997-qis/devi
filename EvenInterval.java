@@ -7,7 +7,7 @@ class EvenInterval
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-         		for (int i = 1; i <6; i++) {
+         		for (int i = 8; i <9; i++) {
 			if (i % 2 == 0) {
 				System.out.print(i + " ");
 			}
