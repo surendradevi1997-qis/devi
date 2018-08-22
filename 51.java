@@ -10,11 +10,26 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int n1,n2,n3;
+		int n;
+		int a[]=new int[20];
 		Scanner s=new Scanner(System.in);
-		n1=s.nextInt();
-	            n2=s.nextInt();
-	            n3=s.nextInt();
-	            System.out.println(n1+" "+n2+" "+n3);
+		n=s.nextInt();
+		int i=0;
+		while(n>0)
+		{
+			int res=n%10;
+			a[i]=res;
+			n=n/10;
+			i++;
+		}
+		while(i>0)
+		{
+			i--;
+			System.out.print(a[i]);
+			if(i>=1)
+			{
+				System.out.print(" ");
+			}
+		}
 	}
 }
