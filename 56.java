@@ -10,18 +10,18 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner sc=new Scanner(System.in);
+		Scanner s=new Scanner(System.in);
 		int count=0;
 		int count1=0;
 		int count2=0;
-		String s=sc.nextLine();
+		String sc=s.nextLine();
 		for(int i=0;i<s.length();i++)
 		{
-			if(Character.isDigit(s.charAt(i)))
+			if(Character.isDigit(sc.charAt(i)))
 			{
 			count++;
 			}
-			else if(Character.isAlphabetic(s.charAt(i)))
+			else if(Character.isAlphabetic(sc.charAt(i)))
 			{
 				count1++;
 			}
