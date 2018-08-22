@@ -11,19 +11,19 @@ class Ideone
 	{
 		// your code goes here
 		String original, reverse = ""; // Objects of String class
-      Scanner in = new Scanner(System.in);
+                        Scanner s= new Scanner(System.in);
  
-           original = in.nextLine();
+                        original = in.nextLine();
  
-      int length = original.length();
+                        int length = original.length();
  
-      for ( int i = length - 1; i >= 0; i-- )
-         reverse = reverse + original.charAt(i);
+                        for ( int i = length - 1; i >= 0; i-- )
+                        reverse = reverse + original.charAt(i);
  
-      if (original.equals(reverse))
-         System.out.println("Yes");
-      else
-         System.out.println("No");
+                           if (original.equals(reverse))
+                                System.out.println("Yes");
+                           else
+                                 System.out.println("No");
 
 	}
 }
