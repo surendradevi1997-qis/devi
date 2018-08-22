@@ -1,5 +1,7 @@
 /* package whatever; // don't place package name! */
 
+/* package whatever; // don't place package name! */
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -10,18 +12,18 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner s=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 		int count=0;
 		int count1=0;
 		int count2=0;
-		String sc=s.nextLine();
+		String s=sc.nextLine();
 		for(int i=0;i<s.length();i++)
 		{
-			if(Character.isDigit(sc.charAt(i)))
+			if(Character.isDigit(s.charAt(i)))
 			{
 			count++;
 			}
-			else if(Character.isAlphabetic(sc.charAt(i)))
+			else if(Character.isAlphabetic(s.charAt(i)))
 			{
 				count1++;
 			}
