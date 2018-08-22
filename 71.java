@@ -13,7 +13,7 @@ class Ideone
 		String original, reverse = ""; // Objects of String class
                         Scanner s= new Scanner(System.in);
  
-                        original = in.nextLine();
+                        original = s.nextLine();
  
                         int length = original.length();
  
