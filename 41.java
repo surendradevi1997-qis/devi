@@ -11,7 +11,7 @@ class Ideone
 	{
 		// your code goes here
 		String str;
-		int p;
+		int p,i;
 		Scanner s=new Scanner(System.in);
 		str=s.next();
 		p=s.nextInt();
