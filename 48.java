@@ -11,12 +11,12 @@ class Ideone
 	{
 		// your code goes here
 		int count=0,i,res=0;
-		Scanner sc=new Scanner(System.in);
-		int n1=sc.nextInt();
+		Scanner s=new Scanner(System.in);
+		int n1=s.nextInt();
 		int n2[]=new int[n1];
 		for(i=0;i<n1;i++)
 		{
-			n2[i]=sc.nextInt();
+			n2[i]=s.nextInt();
 		}
 		for(i=0;i<n1;i++)
 		{
