@@ -11,16 +11,16 @@ class Ideone
 	{
 		// your code goes here
 		String str1,str2;
-		Scanner s=new Scanner(System.in);
-		str1=s.next();
-		str2=s.next();
+		Scanner sc=new Scanner(System.in);
+		str1=sc.next();
+		str2=sc.next();
 		if(str1.length()>str2.length())
 		{
-			System.out.println(str1);
+			System.out.print(str1);
 		}
 		else
 		{
-			System.out.println(str2);
+			System.out.print(str2);
 		}
 	}
 }
