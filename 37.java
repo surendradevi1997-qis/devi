@@ -10,9 +10,9 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner sc=new Scanner(System.in);
-		int p=sc.nextInt();
-		int b=sc.nextInt();
+		Scanner s=new Scanner(System.in);
+		int p=s.nextInt();
+		int b=s.nextInt();
 		int temp;
 		temp=p;
 		p=b;
