@@ -16,19 +16,19 @@ class Ideone
 		switch(n)
 		{
 			case 1:
-				    System.out.println("one");
+				    System.out.println("One");
 			break;
 			case 2:
-			            System.out.println("two");
+			            System.out.println("Two");
 			break;
 			case 3:
-			            System.out.println("three");
+			            System.out.println("Three");
 			break;
 			case 4:
-			            System.out.println("four");
+			            System.out.println("Four");
 			break;
 			case 5:
-			            System.out.println("five");
+			            System.out.println("Five");
 			break;
 			case 6:
 			            System.out.println("six");
@@ -37,13 +37,13 @@ class Ideone
 			            System.out.println("seven");
 			break;
 			case 8:
-			            System.out.println("eight");
+			            System.out.println("Eight");
 			break;
 			case 9:
-			            System.out.println("nine");
+			            System.out.println("Nine");
 			break;
 			case 10:
-				   System.out.println("ten");
+				   System.out.println("Ten");
 			break;
 			case 11:
 				   System.out.println(" ");
