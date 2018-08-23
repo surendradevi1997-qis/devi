@@ -15,7 +15,7 @@ class Ideone
 		n=s.nextInt();
 		if(n%7==0)
 		{
-			System.out.println("Yes");
+			System.out.println("yes");
 		}
 		else
 		{
