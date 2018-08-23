@@ -11,8 +11,8 @@ class Ideone
 	{
 		// your code goes here
 		int n;
-		Scanner s=new Scanner(System.in);
-		n=s.nextInt();
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
 		if(n%7==0)
 		{
 			System.out.println("yes");
