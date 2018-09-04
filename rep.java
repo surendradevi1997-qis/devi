@@ -10,14 +10,14 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner sc=new Scanner(System.in);
+		Scanner s=new Scanner(System.in);
 		int i,count=0;
-		int b=sc.nextInt();
-		int c=sc.nextInt();
+		int b=s.nextInt();
+		int c=s.nextInt();
 		int a[]=new int[b];
 		for(i=0;i<b;i++)
 		{
-			a[i]=sc.nextInt();
+			a[i]=s.nextInt();
 		}
 		for(i=0;i<b;i++)
 		{
