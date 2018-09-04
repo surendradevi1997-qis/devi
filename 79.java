@@ -11,9 +11,9 @@ class Ideone
 	{
 		// your code goes here
 		int n,m,k;
-		Scanner s=new Scanner(System.in);
-		n=s.nextInt();
-		m=s.nextInt();
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		m=sc.nextInt();
 		k=n*m;
 		if(k/n==n)
 		{
