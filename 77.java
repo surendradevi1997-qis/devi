@@ -11,8 +11,8 @@ class Ideone
 	{
 		// your code goes here
 		int n;
-		Scanner sc=new Scanner(System.in);
-		n=sc.nextInt();
+		Scanner s=new Scanner(System.in);
+		n=s.nextInt();
 		for(int i=1;i<=n;i++)
 		{
 			if(n%i==0)
