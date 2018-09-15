@@ -11,9 +11,9 @@ class Ideone
 	{
 		// your code goes here
 		String s,n;
-		Scanner sc=new Scanner(System.in);
-		s=sc.nextLine();
-		n=s.replaceAll("[^0-9]","");
+		Scanner s=new Scanner(System.in);
+		sc=s.nextLine();
+		n=sc.replaceAll("[^0-9]","");
 		System.out.print(n);
 	}
 }
