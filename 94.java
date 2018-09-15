@@ -11,13 +11,13 @@ class Ideone
 	{
 		// your code goes here
 		int n,k;
-		Scanner s=new Scanner(System.in);
-		n=s.nextInt();
-		k=s.nextInt();
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		k=sc.nextInt();
 		int a[]=new int[20];
 		for(int i=1;i<n;i++)
 		{
-			a[i]=s.nextInt();
+			a[i]=sc.nextInt();
 		}
 		System.out.print(a[k]);
 	}
