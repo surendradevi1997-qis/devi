@@ -10,8 +10,8 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner sc=new Scanner(System.in);
-		String s=sc.next();
+		Scanner s=new Scanner(System.in);
+		String str=s.next();
 		char ch = 'a';
                         int ascii = ch;
                         System.out.println(ascii);
