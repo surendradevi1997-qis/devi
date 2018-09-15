@@ -10,8 +10,8 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner s=new Scanner(System.in);
-		String str=s.next();
+		Scanner sc=new Scanner(System.in);
+		String str=sc.next();
 		int len=str.length();
 		int k=0;
 		for(int i=0;i<len;i++)
@@ -30,7 +30,7 @@ class Ideone
 		}
 		else
 		{
-			System.out.print("no");
+			System.out.print("No");
 		}
 	}
 }
